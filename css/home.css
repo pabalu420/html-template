@@ -1,0 +1,71 @@
+
+.container{
+    border: 2px solid green;
+    height: 500px;
+}
+.box{
+    background-color: green;
+    width: 250px;
+    height: 250px;
+    position: relative;
+    animation-name: box_animation2;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+.box p{
+    position:absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+
+@keyframes box_animation1{
+    from{
+     width: 250px;
+
+    }
+    to{
+        transform:translateX(25%);
+        width:500px;
+        background-color:navy;
+        color:yellow;
+        font-weight: bold;
+        font-size: 35px;
+        
+    }
+}
+
+@keyframes box_animation2{
+   0%{
+    top:0px;
+    left: 0px;
+   }
+   25%{
+    top: 250px;
+    left: 0px;
+    background-color: rgb(252,34,34);
+    border-radius: 50px;
+   }
+   50%{
+    top:250px;
+    left: 1100px;
+    background-color: rgb(183,241,47);
+    color: black;
+    border-radius: 50%;
+   }
+   75%{
+    top: 0px;
+    left: 1100px;
+    background-color: rgb(84,238,243);
+    color: black;
+    border-radius: 50px;
+   }
+   100%{
+    top: 0px;
+    left: 0px;
+    background-color: rgb(21,1,1);
+    color: rgb(245,248,86);
+    border-radius: 50px;
+   }
+}

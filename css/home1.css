@@ -1,0 +1,49 @@
+.container{
+    /* border: 2px solid green; */
+    height: 500px;
+}
+.image{
+    background-color: green;
+    width: 250px;
+    height: 250px;
+    position: relative;
+    animation-name: box_animation2;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    translate: ;
+}
+.image img{
+    width: 80%;
+    height: 70%;
+}
+
+
+
+@keyframes box_animation1{
+    from{
+     width: 250px;
+
+    }
+    to{
+        transform:translateX(25%);
+        width:500px;
+        background-color:navy;
+        color:yellow;
+        font-weight: bold;
+        font-size: 35px;
+        
+    }
+}
+
+@keyframes box_animation2{
+    0%{
+     top:0px;
+     left: 0px;
+    }
+    25%{
+     top: 250px;
+     left: 0px;
+     background-color: rgb(252,34,34);
+     border-radius: 50px;
+    }
+ }

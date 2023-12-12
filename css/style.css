@@ -1,0 +1,516 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav_bar{
+    display: flex;
+    justify-content: space-between;
+    background-color:rgb(255, 255, 255);
+    align-items: center;
+    padding: 15px 10%;
+}
+
+nav ul li{
+    display: inline-block;
+}
+.logo{
+    width: 50%;
+    /* justify-content: space-between; */
+    /* padding: 5px; */
+   font-size: 28px;
+   font-weight: 700;
+   color: #0978d1;
+}
+
+.baricon{ text-align:right;
+    display: none;
+    color: red;
+}
+.right{
+    width: 50%;
+    /* justify-content: space-between; */
+    /* padding: 10px; */
+    text-align: right;
+    font-size: 20px;
+}
+
+.image img{
+    width: 100%;
+    height:600px;
+}
+.service{
+    position: absolute;
+    top: 15%;
+    padding:  15%;
+    font-size: 40px;
+    color: white;
+}
+.banner{
+    position: relative;
+}
+.girl img{
+    width: 60%;
+    height: 550px;
+    position: absolute;
+    left: 35%;
+   /* top: 12%; */
+   bottom: 0px;
+}
+.main{
+    text-align: center;
+    padding: 15px 10%;
+   width: 100%;
+   height: 100vh;
+}
+.about{
+    font-size: 32px;
+    color: #071e33;
+}
+.font{
+    color: #333;
+    font-size: 1.5rem;
+}
+.left{
+    display: flex;
+    width: 100%;
+    /* padding-top: 50px; */
+}
+
+.pd{
+    width: 50%;
+}
+ .pd img{
+    width: 100%;
+   
+} 
+.right2{
+    width: 50%;
+    font-size: 20px;
+}
+.container{
+    padding: 5% 10%;
+}
+ .cont{
+    text-align: center;
+    /* padding: 15px 10%; */
+    font-size: 20px;
+   
+}
+.row{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+  height: 100px;
+padding:  5%;
+
+}
+.mark{
+    width: 33%;
+    height: 35vh;
+  border: 1px solid #0978d1;
+  padding-bottom: 50px;
+} 
+.row{
+    margin-bottom: 100px;
+
+}
+.ma{
+    position: relative;
+    top: 20%;
+    text-align: center;
+    font-size: 30px;
+}
+.lo{
+    position: relative;
+    top: 20%;
+    text-align: center;
+   color: #444;
+   font-weight: 400;
+   padding: 10px 10%;
+   font-size: 15px;
+}
+.consul{
+    width: 33%;
+    height: 35vh;
+  border: 1px solid #0978d1;
+} 
+.con{
+    position: relative;
+    top: 20%;
+    text-align: center;
+    font-size: 30px;
+}
+.consu{
+    position: relative;
+    top: 20%;
+    text-align: center;
+    font-weight: 400;
+   padding: 10px 10%;
+   font-size: 15px;
+}
+.dev{
+    width: 33%;
+    height: 35vh;
+  border: 1px solid #0978d1;
+} 
+.deve{
+    position: relative;
+    top: 20%;
+    text-align: center;
+    font-size: 30px;
+}
+.devlop{
+    position: relative;
+    top: 20%;
+    text-align: center;
+    font-weight: 400;
+   padding: 10px 10%;
+   font-size: 15px;
+}
+
+
+@media screen and (max-width:991px) {
+    
+    .nav_bar{
+        display: flex;
+        justify-content:space-between;
+        background-color:rgb(255, 255, 255);
+        align-items: center;
+        padding: 15px 10%;
+    }
+    .logo{
+    width: 20%;
+    font-size: 20px;
+   }
+    .right{
+        width: 80%;
+     
+        text-align: right;
+        font-size: 25px;
+    }
+    /* .baricon{ text-align:right;
+        display:block;
+        color: red;
+    } */
+    /* .girl img{
+        width: 60%;
+        height: 150vh;
+        position: absolute;
+        left: 30%;
+       top: 39%;
+    } */
+    .service{
+        position: absolute;
+        top: 66%;
+        padding:  6%;
+        font-size: 35px;
+        color: white;
+    }
+    
+    .baricon{
+        display: block;
+    }
+    .show{
+        display: block;
+    }
+   .main{
+    height: 100vh;
+   }
+    .about{
+        font-size: 30px;
+        color: #071e33;
+    }
+    .font{
+        color: #333;
+        font-size: 1.2rem;
+    }
+    .left{
+        width: 100%;
+        height: 100vh;
+    }
+     .pd{
+        width: 50%;
+        height: 80vh;
+     } 
+    .pd img{
+        width: 100%;
+        height: 120vh;
+       
+    }
+    .right2{
+        width: 50%;
+        height: 50vh;
+        font-size: 18px;
+    }
+
+    /* service */
+   .container{
+    padding:10%;
+   }
+    .cont{
+        text-align: center;
+        /* padding: 15px 10%; */
+        font-size: 20px;
+        /* position: absolute; */
+        /* top: 1050px; */
+        color: #333;;
+       
+    } 
+    .row{
+        display: flex;
+        width: 100%;
+        justify-content: space-evenly;
+      height: 150px;
+    padding:  10%;
+    margin-bottom: 20%;
+  
+    gap: 30px;
+    }
+    .mark{
+        width: 33%;
+        height: 90vh;
+      border: 1px solid #0978d1;
+      padding-bottom: 50px;
+    } 
+    
+    .ma{
+        position: relative;
+        top: 20%;
+        text-align: center;
+        font-size: 30px;
+    }
+    .lo{
+        position: relative;
+        top: 20%;
+        text-align: center;
+       color: #444;
+       font-weight: 400;
+       padding: 10px 10%;
+       font-size: 15px;
+    }
+    .consul{
+        width: 33%;
+        height: 90vh;
+      border: 1px solid #0978d1;
+      padding-bottom: 50px;
+    } 
+    .con{
+        position: relative;
+        top: 20%;
+        text-align: center;
+        font-size: 30px;
+    }
+    .consu{
+        position: relative;
+        top: 20%;
+        text-align: center;
+        font-weight: 400;
+       padding: 10px 10%;
+       font-size: 15px;
+    }
+    .dev{
+        width: 33%;
+        height: 90vh;
+      border: 1px solid #0978d1;
+    } 
+    .deve{
+        position: relative;
+        top: 17%;
+        text-align: center;
+        font-size: 30px;
+    }
+    .devlop{
+        position: relative;
+        top: 17%;
+        text-align: center;
+        font-weight: 400;
+       padding: 10px 10%;
+       font-size: 15px;
+    }
+    
+}
+@media screen and (max-width:767px) {
+    .logo{
+        width: 10%;
+    }
+    .right{
+        width: 90%;
+     
+        text-align: right;
+        font-size: 20px;
+    }
+    .girl img{
+        width: 70%;
+        height: 132vh;
+        position: absolute;
+        left: 30%;
+       top: 40%;
+    }
+    .service{
+        position: absolute;
+        top: 60%;
+        padding:  6%;
+        font-size: 30px;
+        color: white;
+    }
+    .left{
+        display: flex;
+        flex-direction: column;
+        /* height: 250vh; */
+    }
+     .pd{
+        width: 100%;
+        /* height: 50vh; */
+     }  
+    /* .pd img{
+        width: 100%;
+        height: 80vh;
+       
+    } */
+    .right2{
+        width: 100%;
+        /* height: 25vh; */
+        font-size: 17px;
+        /* position: relative;
+        top: 130px;
+        left: 25%; */
+    }
+
+    /* SERVICE */
+   .container{
+ 
+    /* margin-bottom: 50px; */
+   }
+    /* .cont{
+        text-align: center;
+        padding: 15px 10%;
+        font-size: 20px;
+        /* position: absolute; 
+        top: 1350px;
+        color: #333;
+        margin-bottom: 10%;
+       
+    }  */
+    .row{
+        display: flex;
+        width: 100%;
+        justify-content: space-evenly;
+      /* height: 100px; */
+    padding-top:  50%;
+    margin-top: 25%;
+    position: relative;
+    bottom: 25%;
+  
+    gap: 30px;
+    }
+
+    .mark{
+        width: 33%;
+        height: 90vh;
+      border: 1px solid #0978d1;
+      padding-bottom: 50px;
+    } 
+    
+    .ma{
+        position: relative;
+        top: 16%;
+        text-align: center;
+        font-size: 30px;
+    }
+    .lo{
+        position: relative;
+        top: 16%;
+        text-align: center;
+       color: #444;
+       font-weight: 400;
+       padding: 10px 10%;
+       font-size: 15px;
+    }
+    .consul{
+        width: 33%;
+        height: 90vh;
+      border: 1px solid #0978d1;
+      padding-bottom: 50px;
+    } 
+    .con{
+        position: relative;
+        top: 16%;
+        text-align: center;
+        font-size: 30px;
+    }
+    .consu{
+        position: relative;
+        top: 16%;
+        text-align: center;
+        font-weight: 400;
+       padding: 10px 10%;
+       font-size: 15px;
+    }
+    .dev{
+        width: 33%;
+        height: 90vh;
+      border: 1px solid #0978d1;
+    } 
+    .deve{
+        position: relative;
+        top: 16%;
+        text-align: center;
+        font-size: 30px;
+    }
+    .devlop{
+        position: relative;
+        top: 16%;
+        text-align: center;
+        font-weight: 400;
+       padding: 10px 10%;
+       font-size: 15px;
+    }
+}
+
+@media screen and (max-width:575px) {
+    .logo{
+        width: 20%;
+        font-size: 17px;
+    }
+    .right{
+        width: 80%;
+     
+        text-align: right;
+        font-size: 17px;
+    }
+    .girl img{
+        width: 60%;
+        height: 98vh;
+        position: absolute;
+        left: 40%;
+       top: 38%;
+    }
+    .service{
+        position: absolute;
+        top: 55%;
+        padding:  6%;
+        font-size: 25px;
+        color: white;
+    }
+    .left{
+        width: 100%;
+        height: 100vh;
+    }
+     .pd{
+        width: 50%;
+        height: 50vh;
+     } 
+    .pd img{
+        width: 120%;
+        height: 100vh;
+       
+    }
+    .right2{
+        padding-left: 50px;
+        width: 50%;
+        height: 50vh;
+        font-size: 15px;
+    }
+}
